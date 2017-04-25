@@ -1,6 +1,6 @@
 # npmtest-pbkdf2
 
-#### test coverage for  [pbkdf2 (v3.0.9)](https://github.com/crypto-browserify/pbkdf2)  [![npm package](https://img.shields.io/npm/v/npmtest-pbkdf2.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pbkdf2) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pbkdf2.svg)](https://travis-ci.org/npmtest/node-npmtest-pbkdf2)
+#### basic test coverage for  [pbkdf2 (v3.0.9)](https://github.com/crypto-browserify/pbkdf2)  [![npm package](https://img.shields.io/npm/v/npmtest-pbkdf2.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pbkdf2) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pbkdf2.svg)](https://travis-ci.org/npmtest/node-npmtest-pbkdf2)
 
 #### This library provides the functionality of PBKDF2 with the ability to use any supported hashing algorithm returned from crypto.getHashes()
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-pbkdf2/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-pbkdf2/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-pbkdf2/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-pbkdf2/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-pbkdf2/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-pbkdf2/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-pbkdf2/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-pbkdf2/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-pbkdf2/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-pbkdf2/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-pbkdf2/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-pbkdf2/build/coverage.html/index.html)
 
@@ -116,7 +116,8 @@
             "test/bundle.js"
         ]
     },
-    "version": "3.0.9"
+    "version": "3.0.9",
+    "bin": {}
 }
 ```
 
